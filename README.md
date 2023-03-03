@@ -291,7 +291,9 @@ The user named your_intra_login must be part of the sudo and user42 groups. You 
 -----------------------
 DELETING A USER
 -sudo userdel user_name
+
 -sudo groupdel group_name
+
 -getent group to check that group was deleted
 
 The system will reboot. Check partition settings with lsblk
